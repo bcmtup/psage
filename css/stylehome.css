@@ -1,5 +1,5 @@
-@import url('"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
-@import url('"https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Oswald:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Oswald:wght@300;400;500;700&display=swap');
 
 /*index-page*/
 .header-wrap {
@@ -104,7 +104,7 @@ ul.social-icons {
     line-height: 70px;
 }
 .header-sectin-1{
-    background-image: url("https://bcmtup.github.io/cc/img/home-section-1-back.png");
+    background-image: url(../img/home-section-1-back.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 1180px;
@@ -675,20 +675,20 @@ z-index: 999;
     background-size: contain;
 }
 .matrix-icon_users {
-    background: url("https://bcmtup.github.io/cc/img/person-icon.png") no-repeat;
+    background: url(../img/person-icon.png) no-repeat;
 }
 .matrix-icon_user_blue{
-    background: url("https://bcmtup.github.io/cc/img/person-blue-icon.png") no-repeat;
+    background: url(../img/person-blue-icon.png) no-repeat;
     width: 32px;
     height: 32px;
 }
 .matrix-icon_user_pink{
-    background: url("https://bcmtup.github.io/cc/img/refresh-pink-icon.png") no-repeat !important;
+    background: url(../img/refresh-pink-icon.png) no-repeat !important;
     height: 24px;
     width: 20px;
 }
 .matrix-icon_sync {
-    background: url("https://bcmtup.github.io/cc/img/refresh-icon.png") no-repeat;
+    background: url(../img/refresh-icon.png) no-repeat;
 }
 .matrix-icon_cart__big{
     cursor: pointer;
@@ -699,7 +699,7 @@ z-index: 999;
     display: block;
     width: 50px;
     height: 50px;
-    background: url("https://bcmtup.github.io/cc/img/buy-icon.svg) no-repeat;
+    background: url(../img/buy-icon.svg) no-repeat;
 }
 .matrix-icon_cart__small:after {
     position: absolute;
@@ -710,7 +710,7 @@ z-index: 999;
     display: block;
     width: 23px;
     height: 17px;
-    background: url("https://bcmtup.github.io/cc/img/cart-icon.svg) no-repeat;
+    background: url(../img/cart-icon.svg) no-repeat;
 }
 .icon-tips{
         margin: 0 auto;
@@ -1565,7 +1565,7 @@ top: -25px;
      float: right;
 }
 .back-img{
-    background-image: url('"https://bcmtup.github.io/cc/img/login-back.png"');
+    background-image: url('../img/login-back.png');
     background-repeat: no-repeat;
     height: -webkit-fill-available;
     background-position: center;
@@ -1720,7 +1720,7 @@ hr{
     height: auto;a
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
-    background-image: url('"https://bcmtup.github.io/cc/img/slider-back-triangle.png"');
+    background-image: url('../img/slider-back-triangle.png');
     opacity: 0.9 !important;
     background-position: top;
     background-repeat: no-repeat;
@@ -1848,7 +1848,7 @@ hr{
     top: 70px;
     width: 40px;
     height: 64px;
-    background: url("https://bcmtup.github.io/cc/img/slider-back-dimond.png") no-repeat center;
+    background: url(../img/slider-back-dimond.png) no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -1897,7 +1897,7 @@ hr{
     transform: translateY(-50%);
     width: 22px;
     height: 22px;
-    background: url("https://bcmtup.github.io/cc/img/group.svg) no-repeat center;
+    background: url(../img/group.svg) no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -2404,7 +2404,7 @@ button.btn.btn-link{
 }
 
 .carousel-nav__arrow.carousel-nav__prev {
-    background-image: url(""https://bcmtup.github.io/cc/img/icons/carouselPrev_icon.png"");
+    background-image: url("../img/icons/carouselPrev_icon.png");
 }
 
 .carousel-nav__arrow.carousel-nav__prev:hover {
@@ -2415,7 +2415,7 @@ button.btn.btn-link{
 }
 
 .carousel-nav__arrow.carousel-nav__next {
-    background-image: url(""https://bcmtup.github.io/cc/img/icons/carouselNext_icon@2x.png"");
+    background-image: url("../img/icons/carouselNext_icon@2x.png");
 }
 
 .carousel-nav__arrow.carousel-nav__next:hover {
@@ -2426,7 +2426,7 @@ button.btn.btn-link{
 }
 .slider-2-back{
     padding-top: 50px !important;
-    background-image: url("https://bcmtup.github.io/cc/img/background-slider-2.jpg);
+    background-image: url(../img/background-slider-2.jpg);
     position: relative;
     background-repeat: no-repeat;
 
@@ -2436,7 +2436,7 @@ button.btn.btn-link{
     padding: 70px 0px;
 }
 .slider-1-back{
-     background-image: url(""https://bcmtup.github.io/cc/img/earth_bg.jpg");
+     background-image: url("../img/earth_bg.jpg");
      min-height: 1000px;
      padding-top: 50px;
     background-repeat: no-repeat;
@@ -2567,7 +2567,7 @@ button.btn.btn-link{
     right: 10px;
     bottom: 0;
     top: 0;
-    background: url("https://bcmtup.github.io/cc/img/forsage4x_figure.svg) no-repeat center;
+    background: url(../img/forsage4x_figure.svg) no-repeat center;
     background-size: contain;
 }
 .examples-blocks .example-row span {
@@ -2582,7 +2582,7 @@ button.btn.btn-link{
     right: 0;
     top: 0;
     bottom: 0;
-    background: url("https://bcmtup.github.io/cc/img/d5.jpeg) no-repeat center;
+    background: url(../img/d5.jpeg) no-repeat center;
     background-size: 100% 100%;
 }*/
 .examples-blocks .example:nth-child(1) .example-title::after{
@@ -2592,7 +2592,7 @@ button.btn.btn-link{
     right: 0;
     top: 0;
     bottom: 0;
-    background: url("https://bcmtup.github.io/cc/img/d3.png") no-repeat center;
+    background: url(../img/d3.png) no-repeat center;
     background-size: contain;
 }
 .examples-blocks .example:nth-child(2) .example-title::after{
@@ -2602,7 +2602,7 @@ button.btn.btn-link{
     right: 0;
     top: 0;
     bottom: 0;
-    background: url("https://bcmtup.github.io/cc/img/d4.png") no-repeat center;
+    background: url(../img/d4.png) no-repeat center;
     background-size: contain;
 }
 .examples-blocks .example.r1:nth-child(1) .example-title::after{
@@ -2612,7 +2612,7 @@ button.btn.btn-link{
     right: 0;
     top: 0;
     bottom: 0;
-    background: url("https://bcmtup.github.io/cc/img/d4.png") no-repeat center;
+    background: url(../img/d4.png) no-repeat center;
     background-size: contain;
 }
 .examples-blocks .example.r2:nth-child(1) .example-title::after, .examples-blocks .example.r3:nth-child(1) .example-title::after{
@@ -2622,7 +2622,7 @@ button.btn.btn-link{
     right: 0;
     top: 0;
     bottom: 0;
-    background: url("https://bcmtup.github.io/cc/img/d5.png") no-repeat center;
+    background: url(../img/d5.png) no-repeat center;
     background-size: contain;
 }
 .examples-blocks .example-title {
@@ -2640,7 +2640,7 @@ button.btn.btn-link{
 .examples-more {
     width: 700px;
     margin: 0 calc((100% - 700px)/2);
-    background: url(..img/bottom-borders.png") no-repeat center;
+    background: url(../img/bottom-borders.png) no-repeat center;
     background-size: 100%;
 }
 .examples-more__text {
@@ -2705,7 +2705,7 @@ button.btn.btn-link{
 /*footer*/
 .footer-wrap{
       margin-top: -1px;
-    background-image: url("https://bcmtup.github.io/cc/img/footer-back.png");
+    background-image: url(../img/footer-back.png);
     background-size: cover;
     height: 600px;
     display: table;

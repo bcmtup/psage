@@ -52,13 +52,9 @@
 </head>
 <body class="documentation-body">
 
-<input name="refid" id="refid" type="HIDDEN" value="">
-<input name="baseurl" id="baseurl" type="HIDDEN" value="https://polsage.io/reg/">
 
-<div class="container-fluid pd0 back-img2">
-		<div class="logo text-center" style="margin-left:-35px;padding-bottom: 30px;">
-			
-		</div>
+
+
 		<div class="login-box-wrap">
 		<div class="logo text-center" style="padding-top: 30px;padding-bottom: 30px;">
 			<a href="https://polsage.io">
@@ -70,6 +66,63 @@
                 style="background-color: #d3f812; font-size: 12pt; color: #FF0000;">Client Login</button>
             <span id="connectedAddress" style="font-size: 12pt; color: #e2b52a;"></span>
         </div>	
+			<div class="cell auto"></div>
+        </div>
+        <div class="grid-x grid-margin-x" style="
+         //background: url('./gif/beam.gif') center center / cover no-repeat;
+        overflow: hidden;">
+            <div class="cell auto"></div>
+            <div class="cell small-12 medium-12 large-12 infoPanel" id="introPanel"
+                style="font-size: 14pt; background-color:#26218f; border: 2px solid #FF0000;">
+                
+                <center>
+                    <div id="openRefDiv2"> <butto`n type="button" class=" button connectBtn" id="unlockBtn2"
+                            style="background-color: #FF0000; color: #D9BF4B; border-radius: 5px;">Register</button></div>
+                </center>
+                
+                <center>
+                    <img src="https://maticforcespace.github.io/web3/web1.png" width="300" style=" opacity: 1; border-color: #FF0000;" />
+                </center>
+                <center>
+                    <div id="openRefDiv" style="margin-top: 15px;">
+                        <button type="button" class="button connectBtn" id="unlockBtn"
+                            style="background-color: #FF0000; color: #D9BF4B; border-radius: 5px;">
+                            Login
+                        </button>
+<br>
+                    </div>
+                </center>
+            </div>
+            <div class="cell small-12 medium-12 large-12 infoPanel hide" id="profilePanel"
+                style="font-size: 14pt; line-height: 16pt; background-color: #26218f; border: 2px solid #FF0000;">
+                <span style="color: #f2f2f2;">Your Address: </span><span id="profileAddress" style="color: #e2b52a;"
+                    class="dataItem"></span><br><span style="color: #f2f2f2;">Referred By: </span><span
+                    id="referredBy" style="color: #e2b52a;" class="dataItem"></span><br>
+                <div id="profilePanelRegistered" class="hide"> <br> <span style="color: #f2f2f2;">Your Member ID:
+                    </span><span id="playerID" style="color: #e2b52a;" class="dataItem"></span><br>
+                    <span style="color: #f2f2f2;">Total
+                        Invited Partners:</span> <span id="totalInvitedPartners" style="color: #e2b52a;"
+                        class="dataItem"></span><br><span style="color: #f2f2f2;"> Total Matrix Earnings: </span><span
+                        id="totalEarningsMATIC" style="color: #e2b52a;" class="dataItem"></span><br><span style="color: #f2f2f2;">
+                        Total Dividend Earnings:</span> <span id="totalDividendEarnings" style="color: #e2b52a;"
+                        class="dataItem"></span><br><span style="color: #f2f2f2;">
+                        New Dividends Available: </span><span id="newDivs" style="color: #e2b52a;"
+                        class="dataItem"></span>&nbsp; <button type="button"
+                        style="background-color: #D9BF4B; color: #FF0000;" class="primary button tiny hide"
+                        id="withdrawBtn">Withdraw</button><br><br /><span style="color: #f2f2f2;">Your REF LINK:</span>
+                    <br />
+                    <center> <input class="shareUrl-input js-shareUrl"
+                            style="font-size:10pt; width:90%; cursor: pointer;" id="refURL" type="text"
+                            readonly="readonly" />
+                        <p class="shareUrl-subtext" style="color: #f2f2f2;">Click above to copy the link.</p>
+                    </center>
+                </div>
+                <div id="profilePanelRegisterSection">
+                    <center> <br /> <button type="button" class="success button medium" id="registerBtn">REGISTER 0.50
+                            MATIC</button><br /><span style="font-size:10px;color: #f2f2f2;">Note: If the Referred User has not yet
+                            registered you will be partnered with another player</span></center>
+                </div>
+            </div>
 			
 			<div class="text">
 				<p>Sponsor Address</p>

@@ -36,14 +36,34 @@
 				<a href="https://telegram.me/dapppad" class="text-white f-26"><i class="fa fa-play" aria-hidden="true" target="_blank"></i> JOIN TELEGRAM</a>
 				</div>
 				<div class="rounded-btn btn-gradient-rev  pd-btn" data-aos="zoom-in" data-aos-easing="linear" data-aos-delay="600">
-				<a href="https://polsage.github.io/auth/stake" class="text-white f-24">STAKE NOW</a>
+				<a href="https://polsage.github.io/auth/stake" class="text-white f-26">STAKE NOW</a>
 				</div>
 			</div><BR>
 		<div class="mt-5 text-center">
+			
 				<div class="rounded-btn btn-gradient-rev  pd-btn" data-aos="zoom-in" data-aos-easing="linear" data-aos-delay="600">
-				<a href="https://polygonscan.com/token/0x2e91b99735d8d957c1cf380391c5274c61b37b39" class="text-white f-24">SPOL Contract Address : 0x2e91B99735d8d957C1cF380391c5274C61b37B39</a>
+				SPOL Contract Address : <input type="text" value="0x2e91B99735d8d957C1cF380391c5274C61b37B39" id="myInput">
+					<button onclick="myFunction()">Copy Address</button>
+					
 				</div>
-				
+				<script>
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+  
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+
+
 				
 			</div>
 		</div>
